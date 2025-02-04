@@ -1,7 +1,6 @@
 # include <iostream>
 
 using namespace std;
-string name = "Keshawn";
 
 int main()
 {
