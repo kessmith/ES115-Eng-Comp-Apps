@@ -18,7 +18,6 @@ int main() {
 
     int original_count = counter; 
 
-
-
     cout << "Original Count: " << original_count << " New count is: " << counter << endl;
+    return 0;
 }
