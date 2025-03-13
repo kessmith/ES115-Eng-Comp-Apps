@@ -16,6 +16,8 @@ int main() {
     } else if (richter >= 4.5) {
         cout << "Damage to poorly constructed buildings" << endl;
     } else {
-        cout << "No destruction of buildings" << endl;
+        cout << "Incorrect input" << endl;
+        return 1;
     }
+    return 0;
 }
