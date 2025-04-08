@@ -9,7 +9,6 @@ void box_string(string str)
         cout << "-";
     }
     cout << endl;
-    
     cout << "!" << str << "!" << endl;
 
     for (int i = 0; i < n + 2; i++) {
@@ -21,10 +20,10 @@ void box_string(string str)
 int main()
 {
     string str;
+
     cout << "Enter a string: ";
     cin >> str;
 
     box_string(str);
-
     return 0;
 }
